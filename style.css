@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+h1 {
+  font-family: 'Cabin', sans-serif;
+  color: rgb(63, 25, 99);
+}
+
+h2 {
+  color: rgb(178, 111, 178);
+  font-size: 50px;
+}
+
+i {
+  color: rgb(84, 49, 116);
+  font-size: 50px;
+}
+
+p {
+  color: rgb(97, 59, 132);
+  font-size: 30px;
+}
+
+.card {
+  background-color: rgb(75, 159, 187);
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline  li{
+  display: inline-block;
+}
+
+.btn-blue {
+  background-color: rgb(227, 112, 219);
+  text-decoration: none;
+  color: rgb(16, 31, 31);
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: aliceblue;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
