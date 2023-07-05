@@ -6,7 +6,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(178, 111, 178);
+  color: rgb(58, 23, 58);
   font-size: 50px;
 }
 
@@ -21,7 +21,7 @@ p {
 }
 
 .card {
-  background-color: rgb(75, 159, 187);
+  background-color: rgb(231, 164, 174);
   text-align: center;
   padding: 20px;
   margin: 20px 0;
@@ -41,7 +41,7 @@ p {
 }
 
 .btn-blue {
-  background-color: rgb(227, 112, 219);
+  background-color: rgb(139, 191, 236);
   text-decoration: none;
   color: rgb(16, 31, 31);
   padding: 8px 16px;
